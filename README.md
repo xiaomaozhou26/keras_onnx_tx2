@@ -4,11 +4,11 @@ Convert keras .h5 file to onnx and deploy it on Nvidia Jetson Tx2
 
 Convert .h5 to .onnx
 
-#python yolov3_to_onnx.py --model yolo-tiny-416 
+#python yolov3_to_onnx.py --model yolov3-tiny-416 
 
 Convert .onnx to .trt
 
-#python onnx_to_trt.py --model yolo-tiny-416
+#python onnx_to_trt.py --model yolov3-tiny-416
 
 
 Inference with .trt model
